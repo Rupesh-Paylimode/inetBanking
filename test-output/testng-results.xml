@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBanking" duration-ms="40893" started-at="2021-04-06T06:24:20Z" finished-at="2021-04-06T06:25:01Z">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="40893" started-at="2021-04-06T06:24:20Z" finished-at="2021-04-06T06:25:01Z">
+      <class name="com.inetbanking.testCases.TC_LoginDDT_002">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@77cd7a0]" name="setUp" is-config="true" duration-ms="9975" started-at="2021-04-06T11:54:44Z" finished-at="2021-04-06T11:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@77cd7a0]" name="loginDDT" duration-ms="6920" started-at="2021-04-06T11:54:54Z" data-provider="LoginData" finished-at="2021-04-06T11:55:00Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[Data provider mismatchMethod: loginDDT([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])Arguments: [(java.lang.String) mngr266311,(java.lang.String) YvuzYtY,(java.lang.String) ,(java.lang.String) ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: Data provider mismatchMethod: loginDDT([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])Arguments: [(java.lang.String) mngr266311,(java.lang.String) YvuzYtY,(java.lang.String) ,(java.lang.String) ]at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)at org.testng.internal.Parameters.injectParameters(Parameters.java:796)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:973)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@77cd7a0]" name="tearDown" is-config="true" duration-ms="143" started-at="2021-04-06T11:55:01Z" finished-at="2021-04-06T11:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCases.TC_LoginDDT_002 -->
+      <class name="com.inetbanking.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@4667ae56]" name="setUp" is-config="true" duration-ms="15098" started-at="2021-04-06T11:54:20Z" finished-at="2021-04-06T11:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@4667ae56]" name="loginTest" duration-ms="8406" started-at="2021-04-06T11:54:35Z" finished-at="2021-04-06T11:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@4667ae56]" name="tearDown" is-config="true" duration-ms="239" started-at="2021-04-06T11:54:43Z" finished-at="2021-04-06T11:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- InetBanking -->
+</testng-results>
